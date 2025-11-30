@@ -33,3 +33,32 @@ let cond2 = a != b ;
 console.log("cond1 && cond2 =", cond1 && cond2);
 console.log("cond1 || cond2 =", cond1 || cond2);
 console.log("!cond1 =", !cond1);
+// conditional statment
+let mode = "light";
+let color ;
+if (mode === "dark") {
+    color = "black";
+}
+if (mode === "light") {
+    color = "white";
+}
+console.log(color);
+
+if (mode === "dark") {
+    color = "black";
+}
+else {
+    color = "white";
+}
+console.log(color);
+let num = 8;
+if (num % 2 === 0) {
+    console.log(num, "is even no.")
+}
+else {
+    console.log(num, "is odd no.")
+}
+// ternary operator
+age > 18 ? console.log("adult") : console.log("not adult") ;
+
+
