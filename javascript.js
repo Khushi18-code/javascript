@@ -61,4 +61,28 @@ else {
 // ternary operator
 age > 18 ? console.log("adult") : console.log("not adult") ;
 
-
+alert("hllo"); // pop out on website
+let name = prompt("mine"); // msg ke sath input bhi le sta hai
+console.log(name);
+let number = prompt("enter a number : ");
+if (number % 5 === 0){
+    console.log("yes multiple of 5");
+}
+else {
+    console.log("not multiple of 5");
+}
+if (number <= 100 && number >= 90) {
+    console.log("A");
+}
+else if (number < 90 && number >= 70) {
+    console.log("B");
+}
+else if (number < 70 && number >= 60) {
+    console.log("C");
+}
+else if (number < 60 && number >= 50) {
+    console.log("D");
+}
+else {
+    console.log("F");
+}
