@@ -86,3 +86,28 @@ else if (number < 60 && number >= 50) {
 else {
     console.log("F");
 }
+// for loop print even no.
+for(let i=1; i<=10; i++) {
+    if(i%2===0) {
+     console.log(i);
+    } 
+}
+// while loop
+let game = 25;
+let gameno = prompt("enter the no. =");
+while(game != gameno) {
+    gameno = prompt("try again");
+}
+console.log("congrats, you won");
+// tempelat literals
+let obj = {
+    item: "pen" ,
+    price: 10,
+};
+let output = `the cost of ${obj.item} is ${obj.price} ruppes`;
+console.log(output);
+console.log("the cost of", obj.item, "is", obj.price, "ruppes"); //normal way
+//making username
+let fullname = prompt("enter your full name");
+username = "@"+fullname+fullname.length;
+console.log(username);
