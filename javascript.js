@@ -132,3 +132,13 @@ frnds.pop();
 console.log(frnds.toString());
 let marvel = ["thor", "spiderman", "ironman"];
 console.log(frnds.concat(marvel));
+marvel.shift();
+marvel.unshift("antman");
+console.log(marvel);
+console.log(marvel.slice(1,2)); // return the part of array
+frnds.splice(2,2, "archana","bhoomi")
+console.log(frnds);
+//add element
+frnds.splice(3,0,"aadi");
+//delete element
+frnds.splice(3,1);
