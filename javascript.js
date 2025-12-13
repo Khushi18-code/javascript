@@ -93,7 +93,7 @@ for(let i=1; i<=10; i++) {
     } 
 }
 // while loop
-let game = 25;
+let game = 2;
 let gameno = prompt("enter the no. =");
 while(game != gameno) {
     gameno = prompt("try again");
@@ -111,3 +111,24 @@ console.log("the cost of", obj.item, "is", obj.price, "ruppes"); //normal way
 let fullname = prompt("enter your full name");
 username = "@"+fullname+fullname.length;
 console.log(username);
+//print avg
+let marks = [44,66,86,90,77];
+let sum = 0;
+for(let i=0; i<marks.length; i++) {
+sum = sum + marks[i];
+}
+let avg = sum / marks.length ;
+console.log(avg);
+//10% off 
+let price = [250, 645, 300, 900, 50];
+for(let i=0; i<price.length; i++) {
+   let discount = price[i] /10 ;
+    price[i] = price[i] - discount;
+}
+console.log(price); 
+let frnds = ["riya","siya","ram","sohan","mohan"];
+frnds.push("naman","raman");
+frnds.pop();
+console.log(frnds.toString());
+let marvel = ["thor", "spiderman", "ironman"];
+console.log(frnds.concat(marvel));
